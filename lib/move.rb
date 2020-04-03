@@ -15,6 +15,6 @@ def move(array, index, value = "X")
   array[0] = "X"
 end
 #move(board, 0, "X")
-def update_array_at_with(array, index, value = "X")
+def move(array, index, value = "O")
   array[4] = "O"
 end
