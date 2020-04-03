@@ -15,6 +15,6 @@ def move(array, index, value = "X")
   array[0] = "X"
 end
 #move(board, 0, "X")
-def move(array, index, value = "O")
+def updated_move(array, index, value = "O")
   array[4] = "O"
 end
