@@ -17,4 +17,3 @@ def input_to_index(user_input)
 	  board[index] = character
 	  return board
 	end
-
