@@ -8,15 +8,13 @@ end
 
 #Your #input_to_index method must take one argument, the user's input (should be a string that is "1" - "9").
 def input_to_index(user_input)
-  new_user_input = user_input.to_i
-  new_user_input -= 1
-  return new_user_input
-end
-#expect {move(board, 2)}.to_not raise_error
-def move(array, index, value = "X")
-  array[0] = "X"
-end
-#move(board, 0, "X")
-def updated_move(array, index, value = "O")
-  array[4] = "O"
-end
+	  new_user_input = user_input.to_i
+	  new_user_input -= 1
+	  return new_user_input
+	end
+
+	def move(board, index, character = "X")
+	  board[index] = character
+	  return board
+	end
+
