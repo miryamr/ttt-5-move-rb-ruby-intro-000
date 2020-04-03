@@ -14,5 +14,5 @@ end
 def move(array, index, value = "X")
   array[0] = "X"
 end
-(array, 4, "O")
+move(array, 4, "O")
 #update_array_at_with(board, 0, "X")
