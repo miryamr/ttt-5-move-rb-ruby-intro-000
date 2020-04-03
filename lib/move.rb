@@ -10,7 +10,7 @@ end
 def input_to_index(user_input)
    user_input.to_i - 1
 end
-
+#expect {move(board, 2)}.to_not raise_error
 def move(array, index, value = "X")
   array[0] = "X"
 end
