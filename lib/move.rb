@@ -15,7 +15,9 @@ def move(board_array, index, character = "X")
   board_array[0] = "X"
 end
 
-move
+def move
+
+end
 
 it 'allows "O" player in the middle' do
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
