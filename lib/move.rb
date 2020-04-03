@@ -14,9 +14,6 @@ end
 def move(board_array, index, character = "X")
 end
 
-def update_array_at_with(board_array, index, character = "X")
-  board[index] = player
-end
 
 
 # The element at index 0 of array 'board' is set to the value "X"
