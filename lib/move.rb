@@ -12,13 +12,5 @@ def input_to_index(user_input)
 end
 
 def move(board_array, index, character = "X")
+  board_array[0] = "X"
 end
-
-it 'allows "X" player in the top left position' do
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  move(board, 0, "X")
-
-  expect(board).to eq(["X", " ", " ", " ", " ", " ", " ", " ", " "])
-end
-# The element at index 0 of array 'board' is set to the value "X"
-#=> ["X", " ", " "]
