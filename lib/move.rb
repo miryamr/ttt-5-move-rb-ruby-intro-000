@@ -11,9 +11,10 @@ def input_to_index(user_input)
    user_input.to_i - 1
 end
 
-def move(board, index, player)
-   board[index] = player
+def move(board_array, index, character = "X")
+  board[index] = player
 end
+
 
 # The element at index 0 of array 'board' is set to the value "X"
 #=> ["X", " ", " "]
