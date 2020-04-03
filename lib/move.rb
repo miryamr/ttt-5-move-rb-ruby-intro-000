@@ -15,15 +15,6 @@ def move(board_array, index, value = "X")
   board_array[0] = "X"
 end
 
-def update_array_at_with(board_array, index, value = "X")
-  array[index] = value
-end
-
-def move(board_array, index, character = "X")
+def update_board_array_at_with(board_array, index, value = "X")
   board_array[4] = "O"
 end
-
-
-it 'allows "O" player in the middle' do
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  move(board, 4, "O")
