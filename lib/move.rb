@@ -18,3 +18,4 @@ end
 def update_board_array_at_with(board_array, index, value = "X")
   board_array[4] = "O"
 end
+#update_array_at_with(board, 0, "X")
